@@ -23,6 +23,14 @@ public class Brand implements Serializable {
 
     private Integer seq;
 
+    public Brand(Integer id, String name, String image, String letter, Integer seq) {
+        this.id = id;
+        this.name = name;
+        this.image = image;
+        this.letter = letter;
+        this.seq = seq;
+    }
+
     public Integer getId() {
         return id;
     }
