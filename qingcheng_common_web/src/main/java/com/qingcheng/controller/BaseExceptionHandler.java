@@ -18,6 +18,6 @@ public class BaseExceptionHandler {
     public Result error(Exception e){
         e.printStackTrace();
         System.out.println("调用了公共异常处理类");
-        return new Result(9999,e.getMessage());
+        return new Result(999,e.getMessage());
     }
 }
